@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+
+<body>
+    <form id="form-calculadora">
+        <div>
+            <input type="text" id="lastdisplay" readonly>
+            <input type="text" id="display" value="0" readonly />
+        </div>
+        <div>
+            <button value="7" onclick="addNumber(this)" >7</button>
+            <button value="8" onclick="addNumber(this)">8</button>
+            <button value="9" onclick="addNumber(this)">9</button>
+            <button value="/" onclick="addNumber(this)">/</button>
+        </div>
+        <div>
+            <button value="4" onclick="addNumber(this)">4</button>
+            <button value="5" onclick="addNumber(this)">5</button>
+            <button value="6" onclick="addNumber(this)">6</button>
+            <button value="*" onclick="addNumber(this)">x</button>
+        </div>
+        <div>
+            <button value="1" onclick="addNumber(this)">1</button>
+            <button value="2" onclick="addNumber(this)">2</button>
+            <button value="3" onclick="addNumber(this)">3</button>
+            <button value="-" onclick="addNumber(this)">-</button>
+        </div>
+        <div>
+          
+            <button value="." onclick="addNumber(this)">.</button>
+            <button value="%" onclick="addNumber(this)">%</button>
+            <button value="+" onclick="addNumber(this)">+</button>
+        </div>
+        <div>
+        </div>
+        <div>
+            <button class="lastbtn" onclick="backSpace()"><</button>
+            <button class="lastbtn" onclick="calcular()">=</button>
+            <button class="lastbtn" onclick="zerarDisplay()">C</button>
+        </div>
+    </form>
+    <script src="./assets/js/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,79 @@
+body{
+    background-image: url(../imagens/Fundo.jpg);
+    background-size: 100vw 100vh ;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+#form-calculadora{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    margin:10% auto;
+    background-color: rgba(1, 1, 1, .8);
+    border-radius: 20px;
+    box-shadow: 6px 6px 6px rgba(1, 1, 1, .5);
+    border: none;
+    width: 27%;
+    padding-bottom: 15px;  
+}
+
+form div{ 
+    display: flex;
+    
+    justify-content: center;
+    gap: 4px;
+}
+
+
+form div button{
+    width: 80px;
+    height: 25px;
+    margin: 5px 3px 3px 3px;
+    border-radius: 5px;
+    background-color: rgba(1, 1, 1, .8);
+    color: white;
+    box-shadow: 3px 3px 3px rgba(1, 1, 1, .7);
+    font-size: 13pt;
+    border: none;
+    transition: .3s;
+}
+form div button:hover{
+    
+    background-color: rgba(82, 76, 0, 0.8);
+}
+
+#display{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-items: flex-end;
+    text-align: end;
+    width: 320px;
+    height: 45px;
+    font-size: 24pt;
+    border-radius: 10px;
+    background-color: rgba(1, 1, 1, .8);
+    border: none;
+}
+
+#lastdisplay {
+    color: white;
+    position: absolute;
+    margin-top: 23px;
+    margin-left: -12% ;
+    width: 100px;
+    background-color: rgba(1, 1, 1, .0);
+    border-radius: 10px;
+    border: none;
+    
+}
+
+.lastbtn {
+    width: 100px;
+    height: 35px;
+    font-size: 25pt;
+}
