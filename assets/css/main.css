@@ -21,7 +21,6 @@ body{
 
 form div{ 
     display: flex;
-    
     justify-content: center;
     gap: 4px;
 }
