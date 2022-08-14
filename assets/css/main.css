@@ -1,6 +1,6 @@
 body{
     background-image: url(../imagens/Fundo.jpg);
-    background-size: 100vw 100vh ;
+    background-size: 100vw 100vh cover ;
     background-repeat: no-repeat;
     color: white;
 }
